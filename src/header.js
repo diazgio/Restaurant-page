@@ -7,8 +7,9 @@ const title = () => {
   nameTitle.setAttribute('class', 'name-title');
   nameTitle.innerHTML = 'Delicious Restaurant';
 
-  content.appendChild(titleDiv);
+  
   titleDiv.appendChild(nameTitle);
+  return titleDiv;
 }
 
 export default title;

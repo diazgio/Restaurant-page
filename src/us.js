@@ -1,5 +1,4 @@
 const us = () => {
-  const content = document.getElementById('content');
 
   const uscont = document.createElement('div');
   uscont.setAttribute('class', 'us-cont');

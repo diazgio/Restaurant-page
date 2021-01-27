@@ -1,6 +1,5 @@
 const navbar = () => {
-  const content = document.getElementById('content');
-
+  
   const navbar = document.createElement('div');
   navbar.setAttribute('class', 'nav-container');
 
@@ -38,7 +37,7 @@ const navbar = () => {
 
   const options = [optionCardOne, optionCardTwo, optionCardThird, optionCardFour];
 
-  content.appendChild(navbar);
+  
   options.forEach((s) => {
     navbar.appendChild(s);
   });
@@ -46,6 +45,8 @@ const navbar = () => {
   optionCardTwo.appendChild(second);
   optionCardThird.appendChild(third);
   optionCardFour.appendChild(fourth);
+
+  return navbar;
 }
 
 export default navbar;

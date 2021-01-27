@@ -57,6 +57,55 @@ body {
   font-weight: bold;
 }
 
-.hide {
-  display: none;
+.menu-card {
+  display: flex;
+  width: 82%;
+  margin: 1rem auto;
+}
+
+.menu-img {
+  width: 300px;
+  height: 200px;
+}
+
+.desc-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  padding: 0 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 65%;
+}
+
+.menu-title,
+.menu-desc,
+.price {
+  color: white;
+  font-weight: bolder;
+}
+
+.delv-p {
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.find-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locat {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.find-img {
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
 }
