@@ -1,0 +1,62 @@
+body {
+  background: url(./img/resto.jpg);
+  background-size: cover;
+}
+
+.title-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.name-title {
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: rgb(0, 83, 104);
+}
+
+.nav-container {
+  display: flex;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.op-cont {
+  width: 25%;
+  border: 1px solid white;
+  text-align: center;
+  background-color: rgb(0, 83, 104);
+}
+
+.op-link {
+  color: white;
+}
+
+.op-cont:hover {
+  cursor: pointer;
+  background-color: rgb(0, 83, 104, 0.8);
+}
+
+.big-cont {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: rgb(0, 83, 104, 0.8);
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.us-p {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
