@@ -18,7 +18,7 @@
 
 ## 🔴 Live Demo
 
-[Live Demo](https://diazgio.github.io/Restaurant-page/)
+[Live Demo](https://rawcdn.githack.com/diazgio/Restaurant-page/feature/rest/dist/index.html)
 
 
 ## 🔧 Getting Started
