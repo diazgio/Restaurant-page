@@ -9,14 +9,14 @@ const find = () => {
   location.innerHTML = 'Find us in street Fake #235 Lima';
 
   const imgMap = document.createElement('img');
-  imgMap.setAttribute('class','find-img');
+  imgMap.setAttribute('class', 'find-img');
   imgMap.setAttribute('src', map);
-  imgMap.setAttribute('alt','map');
+  imgMap.setAttribute('alt', 'map');
 
   findCont.appendChild(location);
   findCont.appendChild(imgMap);
-  
+
   return findCont;
-}
+};
 
 export default find;

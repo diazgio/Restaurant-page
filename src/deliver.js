@@ -1,5 +1,4 @@
 const delivery = () => {
-
   const deliv = document.createElement('div');
   deliv.setAttribute('class', 'deliv-cont');
 
@@ -9,6 +8,6 @@ const delivery = () => {
 
   deliv.appendChild(delCont);
   return deliv;
-}
+};
 
 export default delivery;

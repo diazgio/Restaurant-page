@@ -10,7 +10,7 @@ const menu = () => {
   menuCard1.setAttribute('class', 'menu-card');
 
   const img1 = document.createElement('img');
-  img1.setAttribute('class', 'menu-img')
+  img1.setAttribute('class', 'menu-img');
   img1.setAttribute('src', ceviche);
   img1.setAttribute('alt', 'ceviche1');
 
@@ -33,7 +33,7 @@ const menu = () => {
   menuCard2.setAttribute('class', 'menu-card');
 
   const img2 = document.createElement('img');
-  img2.setAttribute('class', 'menu-img')
+  img2.setAttribute('class', 'menu-img');
   img2.setAttribute('src', causa);
   img2.setAttribute('alt', 'causa');
 
@@ -56,7 +56,7 @@ const menu = () => {
   menuCard3.setAttribute('class', 'menu-card');
 
   const img3 = document.createElement('img');
-  img3.setAttribute('class', 'menu-img')
+  img3.setAttribute('class', 'menu-img');
   img3.setAttribute('src', lomo);
   img3.setAttribute('alt', 'lomo');
 
@@ -98,6 +98,6 @@ const menu = () => {
   menuDesc3.appendChild(price3);
 
   return menuCont;
-}
+};
 
 export default menu;

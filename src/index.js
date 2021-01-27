@@ -26,7 +26,7 @@ const tabBtn4 = document.querySelector('#cardFour');
 
 const activeTab = (value) => {
   context.innerHTML = '';
-  if(value === 'us') {
+  if (value === 'us') {
     context.appendChild(us());
   } else if (value === 'menu') {
     context.appendChild(menu());
